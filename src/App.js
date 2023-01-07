@@ -1,12 +1,10 @@
-import React from 'react';
 import './index.css';
-import AboutMe from './AboutMe';
+import Contact from './Contact'
 
 function App() {
   return (
-    <div>
-      <AboutMe />
-    </div>
+    <Contact />
   );
 }
+
 export default App;
