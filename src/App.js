@@ -1,8 +1,13 @@
 import './index.css';
 
+import './techskills.css';
+import Skills from './Skills';
+
 function App() {
   return (
-    <span></span>
+    
+    
+    <Skills />
   );
 }
 
