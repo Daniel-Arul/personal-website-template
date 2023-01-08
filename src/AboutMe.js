@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutMe.css';
 const { Component } = React
 class SplitText extends Component {
   render(){
@@ -28,7 +29,7 @@ const AboutMe = () => {
             <h2 class = 'intro'><SplitText copy="having butterflies in ma tum tum :3" role="heading" /></h2>
           </div>
           <div class = 'inner'>
-            <div id = 'data'>
+            <div id = 'image'>
               <img class = 'intro' src="pfp.jpg" alt="Me" width="300" height="260" ></img>
             </div>
           </div>
