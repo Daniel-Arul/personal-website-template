@@ -1,3 +1,6 @@
+import './index.css';
+import './techskills.css';
+
 const Skills = () => {
     return (
         <section id="skills" class="skills">
