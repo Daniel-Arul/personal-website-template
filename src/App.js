@@ -1,4 +1,3 @@
-import './index.css';
 import Contact from './Contact'
 
 function App() {
