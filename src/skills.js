@@ -1,4 +1,3 @@
-import './index.css';
 import './techskills.css';
 
 const Skills = () => {

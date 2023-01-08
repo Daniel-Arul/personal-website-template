@@ -4,8 +4,9 @@ import Skills from './skills';
 
 function App() {
   return (
-    <AboutMe />
-    <Skills />
+    <div>
+      <AboutMe />
+      <Skills />
     </div>
   );
 }
