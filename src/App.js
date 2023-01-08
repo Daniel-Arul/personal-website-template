@@ -1,8 +1,15 @@
+import React from 'react';
+import AboutMe from './AboutMe';
+import Skills from './skills';
 import Contact from './Contact'
 
 function App() {
   return (
-    <Contact />
+    <div>
+      <AboutMe />
+      <Skills />
+      <Contact />
+    </div>
   );
 }
 

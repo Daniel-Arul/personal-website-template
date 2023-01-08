@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    font-family: 'Ubuntu'; 
+}
+
+#techskills {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#skillmark {
+    color: #3b82f6;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+}
+
+.skills-icons img {
+    transition: 0.5s;
+    padding: 1rem 1.5rem 0.8rem 1.5rem;
+    width: 40px;
+    height: 40px;
+}
+
+.skill-name {
+    margin: 0.01rem; 
+    text-align: center;
+    transition: 0.5s;
+}
+
+.skills-icons:hover img {
+    transition: 0.5s;
+    transform: scale(1.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-icons:hover p {
+    transition: 0.5s;
+    transform: scale(1.4);
+    justify-content: center;
+    align-items: center;
+}
