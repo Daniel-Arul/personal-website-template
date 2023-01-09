@@ -4,7 +4,7 @@ import './Projects.css';
 class Project extends React.Component {
     render() {
         return (
-            <div>
+            <div class="column">
                 <body>
                     <div class="flip-card">
                         <div class="flip-card-inner">
