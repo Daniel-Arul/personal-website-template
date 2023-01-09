@@ -10,7 +10,7 @@ const Projects = () => {
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;" />
+                            <img src="pfp.jpg" alt="Avatar" width="300px" height="300px" />
                         </div>
                         <div class="flip-card-back">
                             <h1>John Doe</h1> 
