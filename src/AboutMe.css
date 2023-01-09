@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Ubuntu'; 
-    margin: 0px;
     padding: 0;
 }
 .body {
@@ -14,7 +13,7 @@
 }
 
 h1.name {
-  font-size: 5em;
+  font-size: 6vh;
 }
 
 h1.name span span {
@@ -23,23 +22,25 @@ h1.name span span {
   position: relative;
   bottom: -1em;
   opacity: 0;
+  font-weight: 900;
   animation: move-text 0.2s forwards;
-  font-size: 50px;
+  font-size: 6vh;
 }
 
 h2.intro {
-  text-align: right;
   font-weight: 600;
   color: #353239;
+  margin-top: 2vh;
 }
 h2.intro span span {
-  text-shadow: 3px 3px 0px rgba(35, 8, 235, 0.1);
-  color: rgb(89, 155, 247);
+  color: rgb(22, 22, 22);
   position: relative;
   bottom: -1em;
-  opacity: 0;
+  opacity: 0; 
   animation: move-text 0.2s forwards;
-  font-size: 40px;
+  font-size: 3vh;
+  text-align: left;
+  left: 5vh;
 }
 /*
 h1 span span:nth-child(2n) { color: lightseagreen; }
@@ -74,11 +75,12 @@ h1 span span:nth-child(5n) { color: blueviolet; }
   display: flex;
   flex-direction: column;
   width: 60vw;
-  text-align: right;
+  text-align: left;
+  left: 5vh;
   font-weight: 600;
   color: #353239;
-  text-decoration: underline;
   text-decoration-color: rgb(89, 155, 247);
+  margin-right: 4vw;
 }
 
 .inner {
