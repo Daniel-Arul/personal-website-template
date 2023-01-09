@@ -1,39 +1,23 @@
-import './techskills.css';
-
-const Skills = () => {
+import './Projects.css';
+const Projects = () => {
     return (
-        <section id="skills" class="skills">
-        <h1 id="techskills">Technical <span id="skillmark">Skills</span></h1>
-        <div class="container">
-            <div class="skills-icons">
-                <img src="/pics/GitHub-Mark.png"/>
-                <p class="skill-name">GitHub</p>
-            </div>
-            <div class="skills-icons">
-                <img src="/pics/HTML5_Badge_512.png"/>
-                <p class="skill-name">HTML</p>
-            </div>
-            <div class="skills-icons">
-                <img src="/pics/CSS3_logo.svg.png"/>
-                <p class="skill-name">CSS</p>
-            </div>
-            <div class="skills-icons">
-                <img src="/pics/React-icon.svg.png"/>
-                <p class="skill-name">React</p>
-            </div>
-            <div class="skills-icons">
-                <img src="/pics/Python-logo-notext.svg.png"/>
-                <p class="skill-name">Python</p>
-            </div>
-            <div class="skills-icons">
-                <img src="/pics/Fortnite_F_lettermark_logo.png"/>
-                <p class="skill-name">Fortnite</p>
-            </div>
-            {/* Keep adding divs to increase the line :) */}
-            
+        <body>
+        <h1>Card Flip with Text</h1>
+        <h3>Hover over the image below:</h3>
 
+        <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;" />
+            </div>
+            <div class="flip-card-back">
+            <h1>John Doe</h1> 
+            <p>Architect & Engineer</p> 
+            <p>We love that guy</p>
+            </div>
         </div>
-        </section>
-    );
-}
-export default Skills;
+        </div>
+
+        </body>
+    )};
+ export default Projects;
