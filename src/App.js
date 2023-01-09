@@ -1,14 +1,16 @@
 import React from 'react';
-import AboutMe from './AboutMe';
-import Skills from './skills';
-import Contact from './Contact'
+import Projects from './Projects';
+import './Projects.css';
 
 function App() {
   return (
-    <div>
-      <AboutMe />
-      <Skills />
-      <Contact />
+    <div class="row">
+      <Projects projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+      <Projects projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
+      <Projects projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+      <Projects projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
+      <Projects projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+      <Projects projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
     </div>
   );
 }
