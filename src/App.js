@@ -1,14 +1,10 @@
 import React from 'react';
-import AboutMe from './AboutMe';
-import Skills from './skills';
-import Contact from './Contact'
+import Projects from './Projects';
 
 function App() {
   return (
     <div>
-      <AboutMe />
-      <Skills />
-      <Contact />
+      <Projects />
     </div>
   );
 }
