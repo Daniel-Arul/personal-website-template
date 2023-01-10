@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.Section-Title{
+    font-family: 'Ubuntu'; 
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 900;
+}

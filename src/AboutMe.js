@@ -1,5 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
+import './defaults.css';
+
 const { Component } = React
 class SplitText extends Component {
   render(){

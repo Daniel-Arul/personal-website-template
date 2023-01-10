@@ -1,10 +1,11 @@
 import './contact.css';
+import './defaults.css';
 
 const Contact = () => {
     return ( 
         <div className="Boop">
             <div>
-                <h1>Contact Information</h1>
+                <h1 class = "Section-Title">Contact Information</h1>
                 <h2>Email: example@gmail.com</h2>
             </div>
             

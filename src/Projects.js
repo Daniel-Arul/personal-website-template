@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import './defaults.css';
 
 class Project extends React.Component {
     render() {
@@ -24,5 +25,23 @@ class Project extends React.Component {
     }
 }
 
+class Projects extends React.Component {
+    render() {
+        return (
+            <div class = "block" >
+                <h1 class ="Section-Title"> Projects </h1>
+                <div class="row">
+                    <Project projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+                    <Project projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
+                    <Project projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+                    <Project projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
+                    <Project projectName = "Project Name" projectTidBit = "About the Project" projectTools = "Anything made with it"/>
+                    <Project projectName = "Website" projectTidBit = "Built to display attributes" projectTools = "React,HTML,CSS,JSX,GitHub"/>
+                </div>
+            </div>
+        )
+    }
+}
 
-export default Project;
+
+export default Projects;

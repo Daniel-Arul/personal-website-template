@@ -4,15 +4,17 @@
     font-family: 'Ubuntu'; 
 }
 
+.skills {
+    background-color: #F0EFEA;
+}
+
 #techskills {
     text-align: center;
     padding-top: 20px;
-    font-size: 6vh;
 }
 
 #skillmark {
     color: #3b82f6;
-    font-size: 6vh;
 }
 
 .container {
