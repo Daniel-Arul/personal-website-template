@@ -7,6 +7,7 @@
 .skills {
     background-color: #F0EFEA;
     /* margin: 20px; */
+    /* padding: 100px; */
 }
 
 #techskills {
@@ -51,4 +52,47 @@
     transform: scale(1.4);
     justify-content: center;
     align-items: center;
+}
+
+/* WAVES */
+
+.wave {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 55px;
+}
+
+.wave .shape-fill {
+    fill: rgb(9, 92, 124);
+}
+
+.wave-bottom {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+}
+
+.wave-bottom .shape-fill {
+    fill: rgb(9, 92, 124);
 }
