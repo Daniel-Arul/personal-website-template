@@ -5,8 +5,12 @@
   margin-right: 20vw;
 }
 
-.Section-Title {
+/* .Section-Title {
   padding-top: 30px;
+} */
+
+.block .Section-Title {
+  color: white;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -24,7 +28,8 @@
 
 body {
   font-family: 'Ubuntu';
-  background-color: rgb(9, 92, 124);
+  /* background-color: rgb(9, 92, 124); */
+  background-color: #226597;
 }
 
 .flip-card {
@@ -65,4 +70,27 @@ body {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+}
+
+/* WAVES */
+
+.custom-shape-divider-bottom-1674162737 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  /* transform: rotate(180deg); */
+}
+
+.custom-shape-divider-bottom-1674162737 svg {
+  position: relative;
+  display: block;
+  width: calc(113% + 1.3px);
+  height: 103px;
+}
+
+.custom-shape-divider-bottom-1674162737 .shape-fill {
+  fill: #F0EFEA;
 }

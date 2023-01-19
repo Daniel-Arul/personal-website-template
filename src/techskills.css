@@ -73,7 +73,8 @@
 }
 
 .wave .shape-fill {
-    fill: rgb(9, 92, 124);
+    /* fill: rgb(9, 92, 124); */
+    fill: #226597;
 }
 
 .wave-bottom {
@@ -94,5 +95,6 @@
 }
 
 .wave-bottom .shape-fill {
-    fill: rgb(9, 92, 124);
+    /* fill: rgb(9, 92, 124); */
+    fill: #226597;
 }
