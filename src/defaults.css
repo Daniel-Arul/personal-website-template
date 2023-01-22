@@ -22,8 +22,9 @@
     rgba(0,0,0,0.6) 80%,
     rgba(0,0,0,0.9) 100%
   ),
-  url("./pics/background.jpg");
+  url("./pics/background.webp");
   padding: 0px;
+  background-size: 100% 100%;
 }
 
 
