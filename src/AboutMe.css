@@ -81,6 +81,10 @@ h1 span span:nth-child(5n) { color: blueviolet; }
   width: fit-content;
 }
 
+.pfp{
+  border-radius: 50%;
+}
+
 #image {
   display: flex;
   flex-wrap: wrap;

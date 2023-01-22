@@ -14,8 +14,11 @@
 }
 
 .Background-White{
+    display:table;
+    width:230%;
+    background: linear-gradient( rgba(229, 249, 3, 0.5), rgba(7, 42, 241, 0.5) ), url("./pics/background.jpg");
+    background-color: #cccccc;
     padding: 0px;
-    background-color: #F0EFEA;
     filter: brightness(100%);
 }
 

@@ -30,7 +30,7 @@ const AboutMe = () => {
           </div>
           <div class = 'inner'>
             <div id = 'image'>
-              <img class = 'intro' src="pfp.jpg" alt="Me" width="300" height="260" ></img>
+              <img class="pfp" src="pfp.jpg" alt="Me" width="300" height="260"></img>
             </div>
           </div>
         </div>
