@@ -14,13 +14,18 @@
 }
 
 .Background-White{
-    display:table;
-    width:230%;
-    background: linear-gradient( rgba(229, 249, 3, 0.5), rgba(7, 42, 241, 0.5) ), url("./pics/background.jpg");
-    background-color: #cccccc;
-    padding: 0px;
-    filter: brightness(100%);
+  background-image: -webkit-linear-gradient(left, 
+    rgba(0,0,0,0.9) 0%, 
+    /* % tells you how much to darken from the left*/
+    rgba(0,0,0,0.6) 20%,
+    /* % tells you how much to darken from the left*/
+    rgba(0,0,0,0.6) 80%,
+    rgba(0,0,0,0.9) 100%
+  ),
+  url("./pics/background.jpg");
+  padding: 0px;
 }
+
 
 .Background-Blue{
     padding: 0px;
