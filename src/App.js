@@ -6,20 +6,28 @@ import Contact from './Contact'
 
 function App() {
   return (
-    <div>
-      <div class="Background-White">
-        <AboutMe />
+    <>
+      <div>
+        <div id="About" class="Background-White">
+          <AboutMe />
+        </div>
+        <div id="Projects" class="Background-Blue">
+          <Projects />
+        </div>
+        <div id="Skills" class="Background-White">
+          <Skills />
+        </div>
+        <div id="Contact" class="Background-Blue">
+          <Contact />
+        </div>
+        <div class="navbar">
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
       </div>
-      <div class="Background-Blue">
-        <Projects />
       </div>
-      <div class="Background-White">
-        <Skills />
-      </div>
-      <div class="Background-Blue">
-        <Contact />
-      </div>
-    </div>
+    </>
   );
 }
 
