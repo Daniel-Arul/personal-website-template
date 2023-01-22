@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     font-family: 'Ubuntu'; 
     margin: 0px;
