@@ -24,7 +24,11 @@
   ),
   url("./pics/background.webp");
   padding: 0px;
-  background-size: 100% 100%;
+  background-size: cover;
+  /* background-size: 100% 100%; */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  
 }
 
 

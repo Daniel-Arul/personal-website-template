@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.blurdiv {
+    backdrop-filter: blur(5px);
+    /* filter: blur(8px); */
+}
+
+
 #techskills {
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 
 #skillmark {
@@ -14,6 +22,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 0.8rem;
+
 }
 
 .skills-icons img {
@@ -27,6 +36,7 @@
     margin: 0.01rem; 
     text-align: center;
     transition: 0.5s;
+    color: white;
 }
 
 .skills-icons:hover img {
@@ -63,7 +73,7 @@
 
 .wave .shape-fill {
     /* fill: rgb(9, 92, 124); */
-    fill: #226597;
+    fill: #0e39c8;
 }
 
 .wave-bottom {
@@ -85,5 +95,5 @@
 
 .wave-bottom .shape-fill {
     /* fill: rgb(9, 92, 124); */
-    fill: #226597;
+    fill: #0e39c8;
 }
