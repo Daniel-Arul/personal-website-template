@@ -1,15 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-
-* {
-    font-family: 'Ubuntu'; 
-}
-
-.skills {
-    background-color: #F0EFEA;
-    /* margin: 20px; */
-    /* padding: 100px; */
-}
-
 #techskills {
     text-align: center;
     padding-top: 20px;

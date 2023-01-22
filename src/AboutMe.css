@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-* {
-    font-family: 'Ubuntu'; 
-    padding: 0;
-}
 .body {
   padding: 5em;
-  font-family: 'Ubuntu'; 
-  background-color: #F0EFEA;
   padding-top: 10em;
   display: flex;
 }

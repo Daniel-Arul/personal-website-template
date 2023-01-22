@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+* {
+    font-family: 'Ubuntu'; 
+    margin: 0px;
+    padding: 0;
+}
+
 .Section-Title{
     font-family: 'Ubuntu'; 
     text-align: center;
     font-size: 6vh;
     font-weight: 900;
+}
+
+.Background-White{
+    padding: 0px;
+    background-color: #F0EFEA;
+    filter: brightness(100%);
+}
+
+.Background-Blue{
+    padding: 0px;
+    background-color: #0e39c8;
+    filter: brightness(100%);
 }

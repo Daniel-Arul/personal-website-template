@@ -7,10 +7,18 @@ import Contact from './Contact'
 function App() {
   return (
     <div>
-      <AboutMe />
-      <Projects />
-      <Skills />
-      <Contact />
+      <div class="Background-White">
+        <AboutMe />
+      </div>
+      <div class="Background-Blue">
+        <Projects />
+      </div>
+      <div class="Background-White">
+        <Skills />
+      </div>
+      <div class="Background-Blue">
+        <Contact />
+      </div>
     </div>
   );
 }
