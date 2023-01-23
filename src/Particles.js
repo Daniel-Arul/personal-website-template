@@ -20,10 +20,10 @@ function Particless() {
                 fpsLimit: 30,
                 interactivity: {
                     events: {
-                        onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
+                        // onClick: {
+                        //     enable: true,
+                        //     mode: "push",
+                        // },
                         onHover: {
                             enable: true,
                             mode: "repulse",
@@ -48,7 +48,7 @@ function Particless() {
                         color: "#ffffff",
                         distance: 200,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.2,
                         width: 1,
                     },
                     collisions: {
@@ -67,12 +67,12 @@ function Particless() {
                     number: {
                         density: {
                             enable: true,
-                            area: 600,
+                            area: 1000,
                         },
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.2,
                     },
                     shape: {
                         type: "circle",
