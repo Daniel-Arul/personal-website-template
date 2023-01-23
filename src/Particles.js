@@ -17,7 +17,7 @@ function Particless() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                fpsLimit: 120,
+                fpsLimit: 30,
                 interactivity: {
                     events: {
                         onClick: {
@@ -35,7 +35,7 @@ function Particless() {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 100,
                             duration: 0.4,
                         },
                     },
@@ -52,7 +52,7 @@ function Particless() {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         directions: "none",
@@ -61,13 +61,13 @@ function Particless() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 2,
                         straight: false,
                     },
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 400,
                         },
                         value: 80,
                     },
@@ -78,7 +78,7 @@ function Particless() {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 5 },
+                        value: { min: 1, max: 10 },
                     },
                 },
                 detectRetina: true,
