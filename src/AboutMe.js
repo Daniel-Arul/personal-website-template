@@ -33,8 +33,7 @@ const AboutMe = () => {
               <img class="pfp" src="pfp.jpg" alt="Me" width="300" height="260"></img>
             </div>
           </div>
-        </div>
-        
+        </div> 
      );
 }
  
