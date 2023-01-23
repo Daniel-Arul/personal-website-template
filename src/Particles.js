@@ -46,7 +46,7 @@ function Particless() {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 150,
+                        distance: 200,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -67,7 +67,7 @@ function Particless() {
                     number: {
                         density: {
                             enable: true,
-                            area: 400,
+                            area: 600,
                         },
                         value: 80,
                     },
