@@ -1,6 +1,9 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import './Particles.css';
+import './defaults.css';
+
 
 function Particless() {
     const particlesInit = useCallback(async engine => {

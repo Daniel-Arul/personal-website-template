@@ -6,10 +6,6 @@ import Contact from './Contact'
 import Particless from './Particles'
 import './defaults.css';
 
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-
 function App() {
   return (
     <>
@@ -17,7 +13,7 @@ function App() {
         <div id="About" class="Background-White">
           <AboutMe />
         </div>
-        <div id="Projects" class="Background-Blue">
+        <div id="Projects" class="Background-Particles">
           <Particless/>
           <Projects />
         </div>
