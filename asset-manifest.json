@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personal-website-template/static/css/main.680c03c7.css",
+    "main.js": "/personal-website-template/static/js/main.cec52a55.js",
+    "static/media/background.webp": "/personal-website-template/static/media/background.6cefa5f1cf2911802e22.webp",
+    "index.html": "/personal-website-template/index.html",
+    "main.680c03c7.css.map": "/personal-website-template/static/css/main.680c03c7.css.map",
+    "main.cec52a55.js.map": "/personal-website-template/static/js/main.cec52a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.680c03c7.css",
+    "static/js/main.cec52a55.js"
+  ]
+}
