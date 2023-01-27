@@ -11,11 +11,11 @@ class Project extends React.Component {
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <h1>{this.props.projectName}</h1> 
-                                <p> {this.props.projectTidBit}</p>
+                                <p className="info"> {this.props.projectTidBit}</p>
                             </div>
                             <div class="flip-card-back">
                                 <h1>Made With</h1> 
-                                <p> {this.props.projectTools} </p>
+                                <p className="info"> {this.props.projectTools} </p>
                             </div>
                         </div>
                     </div>
